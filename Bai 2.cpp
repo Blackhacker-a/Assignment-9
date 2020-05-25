@@ -8,7 +8,7 @@ void Nhapchuoi(char str[100]){
 //void Xuat chuoi
 
 bool check(char str1[100], char str2[100]){
-    if(strstr(str1,str2)!=NULL){
+    if(strstr(str1,str2)!=NULL){     //kiem tra chuoi s2 co nam trong s1 khong
     	return true;
 	}
 }
